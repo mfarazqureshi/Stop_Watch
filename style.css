@@ -1,0 +1,44 @@
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/65/685791efb01cafb.jpg");
+    background-color: #cccccc;
+   }
+.main{
+    text-align: center;
+}
+#min,#sec,#msec{
+    border: 4px solid red;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    color: rgb(241, 168, 9);
+
+}
+.watch{
+    font-size: 70px;
+    color: crimson;
+}
+.watch1{
+    color: crimson;
+}
+.button{
+    color: rgb(241, 168, 9);
+    color: crimson;
+    margin: 5px;
+}
+@media only screen and (max-width:380px){
+    #min,#sec,#msec{
+        border: 4px solid red;
+        display: inline-block;
+        width: 140px;
+        height: 30px;
+        margin: 5px;
+        color: rgb(241, 168, 9);
+    }
+}
+@media only screen and (max-width:380px){
+    .watch{
+        font-size: 40px;
+        color: crimson;
+    }
+}
